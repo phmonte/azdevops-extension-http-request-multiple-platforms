@@ -1,0 +1,40 @@
+{
+    "manifestVersion": 1,
+    "id": "SimpleHttpRequest",
+    "version": "1.1.0",
+    "name": "SimpleHttpRequest",
+    "publisher": "phmonte",
+    "description": "This task makes a simple http request and validate status code.",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "SimpleHttpRequest/icon.png"
+    },
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/phmonte/azdevops-extension-http-request"
+    },
+    "contributions": [
+        {
+            "id": "SimpleHttpRequest",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name" : "SimpleHttpRequest"
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "SimpleHttpRequest"
+        }
+    ]
+}
