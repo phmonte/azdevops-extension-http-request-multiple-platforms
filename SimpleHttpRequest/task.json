@@ -1,16 +1,16 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
     "id": "7b2651f1-34bb-426e-9381-917dbeded037",
-    "name": "SimpleHttpRequest",
-    "friendlyName": "SimpleHttpRequest",
-    "description": "This task makes a simple http request and validate status code",
+    "name": "SmokeTestMultiplatform",
+    "friendlyName": "Smoke Test Multiplatform",
+    "description": "This task makes a smoke test request and wait status code 200",
     "helpMarkDown": "",
     "category": "Utility",
     "author": "Pablo Monteiro",
     "version": {
         "Major": 1,
         "Minor": 1,
-        "Patch": 0
+        "Patch": 5
     },
     "instanceNameFormat": "Echo $(samplestring)",
     "inputs": [
